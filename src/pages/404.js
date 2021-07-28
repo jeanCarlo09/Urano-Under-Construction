@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 const NotFoundPage = () => (
   <Layout>
     <Seo title="404: Not found" />
-    <div className="error-area align-items-center">
+    <div className="error-area align-items-center pt-80 pb-80">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-8 text-center">
