@@ -5,7 +5,7 @@
     letter-spacing: 1rem;
     line-height: 1.1;
     margin-bottom: 30px;
-    color: #a749ff;
+    color: $purple;
     @media #{$lg-layout} {
       font-size: 15rem;
       margin-bottom: 4px;
@@ -25,14 +25,18 @@
   h2 {
     font-size: 25px;
     font-weight: 600;
-    color: #000;
+    color: $black;
+  }
+
+  p {
+    color: $grey;
   }
 }
 
 .error-btn {
   position: relative;
   transition: all 0.3s;
-  color: #fff;
+  color: $white;
   font-size: 16px;
   min-width: 184px;
   min-height: 55px;
@@ -41,7 +45,7 @@
   padding: 0 10px;
   border: none;
   border-radius: 0;
-  background-color: #a749ff;
+  background-color: $purple;
   display: inline-block;
   text-decoration: none;
   &:after {
@@ -51,45 +55,14 @@
     bottom: -6px;
     height: 3px;
     width: 100%;
-    background-color: #a749ff;
+    background-color: $purple;
     transition: all 0.3s;
   }
   &:hover {
     background-color: #111111;
-    color: #fff;
+    color: $white;
     &:after {
       background-color: #111111;
-    }
-  }
-}
-
-.searchform {
-  position: relative;
-  & input {
-    border: 1px solid #eeeeee;
-    height: 45px;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 80px;
-    background-color: transparent;
-  }
-  & button {
-    border: none;
-    background-color: #a749ff;
-    width: 70px;
-    color: #fff;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    &:hover {
-      background-color: #000;
-    }
-  }
-  @media #{$xs-layout} {
-    &.mb-50 {
-      margin-bottom: 20px;
     }
   }
 }
