@@ -16,6 +16,15 @@ const IndexPage = () => (
         <section className="contact">
           <h1 className="contact-title">Mar De Urano</h1>
           <h2 className="contact-sub-title">Site Under Construction</h2>
+
+          <div id="social">
+            <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/mardeurano"
+              aria-label="facebook" target="_blank" rel="noopener noreferrer">{''}</a>
+
+            <a class="pinterestBtn smGlobalBtn" href="https://www.instagram.com/mardeurano_/"
+              aria-label="instagram" target="_blank" rel="noopener noreferrer">{''}</a>
+          </div>
+
         </section>
       </main>
     </div>

@@ -1,0 +1,61 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+#social {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn {
+  /* global button class */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ddd; /* add border to the buttons */
+  box-shadow: 0 3px 3px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 27px;
+  -moz-border-radius: 27px;
+  -webkit-border-radius: 27px;
+}
+
+/* facebook button class*/
+.facebookBtn {
+  background: #4060a5;
+}
+
+.facebookBtn:before {
+  /* use :before to add the relevant icons */
+  font-family: "FontAwesome";
+  content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover {
+  color: #4060a5;
+  background: #fff;
+  border-color: #4060a5; /* change the border color on mouse hover */
+}
+
+/* pinterest button class*/
+.pinterestBtn {
+  background: #e1306c;
+}
+
+.pinterestBtn:before {
+  font-family: "FontAwesome";
+  content: "\f16d"; /* add pinterest icon */
+}
+
+.pinterestBtn:hover {
+  color: #e1306c;
+  background: #fff;
+  border-color: #e1306c;
+}
