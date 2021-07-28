@@ -25,6 +25,7 @@
   h2 {
     font-size: 25px;
     font-weight: 600;
+    color: #000;
   }
 }
 
@@ -42,6 +43,7 @@
   border-radius: 0;
   background-color: #a749ff;
   display: inline-block;
+  text-decoration: none;
   &:after {
     position: absolute;
     content: "";
